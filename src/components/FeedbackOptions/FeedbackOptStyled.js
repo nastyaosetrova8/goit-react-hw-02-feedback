@@ -11,21 +11,22 @@ border-radius: 8px;
   outline: none;
   cursor: pointer;
   border: none;
-  background-color: #e7e7e7;
+  color: #030360;
+  background-color: #21c6f4;
   transition: background-color 150ms linear;
- 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+transition: box-shadow 100ms linear;
+
   &:not(:last-child){
     margin-right: 10px;
   }
 
   &:hover,
-&:focus {
-  box-shadow: 0px 2px 47px -18px rgba(0, 0, 0, 0.75);
-  background-color: #0af0e8;
-}
- 
- /* &--active {
-    background-color: #0af0e8;
- } */
+  &:focus {
+  box-shadow: none;
+  background-color: #6bddfc;
+} 
 `
+
+
 

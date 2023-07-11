@@ -1,10 +1,11 @@
+import { SectionStyled } from "./SectionStyled";
 
 const Section = ({title, children}) => {
 return (
-    <section>
+    <SectionStyled>
         {<h2>{title}</h2>}
         {children}
-    </section>
+    </SectionStyled>
 )
 }
 

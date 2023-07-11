@@ -5,7 +5,6 @@ const {good, neutral, bad, total, positivePercentage} = props
 
 return (
     <section>
-        {/* <h2>{title}</h2> */}
         <p>Good: {good}</p>
         <p>Neutral: {neutral}</p>
         <p>Bad: {bad}</p>
